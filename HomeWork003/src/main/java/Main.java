@@ -14,5 +14,11 @@ public class Main {
              myList) {
             System.out.println(str);
         }
+//    Выполнение задания 2
+
+        System.out.println(Task_2.sum(1, 2.0f));
+        System.out.println(Task_2.multiply(1, 2.0f));
+        System.out.println(Task_2.divide(1, 2.0f));
+        System.out.println(Task_2.subtract(1, 2.0f));
     }
 }
