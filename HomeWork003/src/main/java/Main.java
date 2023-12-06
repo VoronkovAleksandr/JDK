@@ -18,7 +18,7 @@ public class Main {
 
         System.out.println(Task_2.sum(1, 2.0f));
         System.out.println(Task_2.multiply(1, 2.0f));
-        System.out.println(Task_2.divide(1, 2.0f));
+        System.out.println(Task_2.divide(1, 74871263406203489L));
         System.out.println(Task_2.subtract(1, 2.0f));
     }
 }

@@ -5,21 +5,22 @@
 public class Task_2 {
 
 
-    public static <T extends Number> Number sum(T first, T second) {
-        return first.byteValue() + second.byteValue();
+    public static <T extends Number> double sum(T first, T second) {
+        return first.doubleValue() + second.doubleValue();
     }
 
-    public static <T extends Number> Number multiply(T first, T second) {
-        return first.byteValue() * second.byteValue();
+    public static <T extends Number> double multiply(T first, T second) {
+        return first.doubleValue() * second.doubleValue();
     }
 
-    public static <T extends Number> Number divide(T first, T second) {
+    public static <T extends Number> double divide(T first, T second) {
         if (second.equals(0)) {
             throw new RuntimeException("На ноль делить нельзя");
         }
-        return first.byteValue() / second.byteValue();
+        return first.doubleValue() / second.doubleValue();
     }
-    public static <T extends Number> Number subtract(T first, T second) {
-        return first.byteValue() - second.byteValue();
+
+    public static <T extends Number> double subtract(T first, T second) {
+        return first.doubleValue() - second.doubleValue();
     }
 }
